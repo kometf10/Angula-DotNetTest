@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "RbJPNoiJgXZLZIz1z2dd9DgeZRfe7Aj4GfRBgr1oUFpG2gYFrhKluDPdX/3FJHj+l+iyZKWKy9OCWQUP+nJfFQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\AngularAndDotNetTestProject2\\AngularDotNetTest.API\\AngularDotNetTest.API\\AngularDotNetTest.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\komet\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\komet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\komet\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\komet\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\komet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\komet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

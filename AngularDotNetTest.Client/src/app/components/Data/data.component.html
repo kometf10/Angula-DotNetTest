@@ -1,0 +1,36 @@
+<h2 class="text-xl mt-10 mr-10 ml-10 mb-2"> Data Component </h2>
+
+<div class="text-sm mr-10 ml-10 mb-10"> Fetching Employees Data From DotNet API </div>
+
+
+<div class="relative overflow-x-auto mr-10 ml-">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    First Name
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Last Name
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Job Title
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employees" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">
+                    {{ employee.firstName }}
+                </td>
+                <td class="px-6 py-4">
+                    {{ employee.lastName }}
+                </td>
+                <td class="px-6 py-4">
+                    {{ employee.jobTitle }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
