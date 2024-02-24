@@ -62,3 +62,4 @@ D:\Projects\AngularAndDotNetTestProject2\AngularDotNetTest.API\AngularDotNetTest
 D:\Projects\AngularAndDotNetTestProject2\AngularDotNetTest.API\AngularDotNetTest.API\obj\Debug\net6.0\AngularDotNetTest.API.pdb
 D:\Projects\AngularAndDotNetTestProject2\AngularDotNetTest.API\AngularDotNetTest.API\obj\Debug\net6.0\AngularDotNetTest.API.genruntimeconfig.cache
 D:\Projects\AngularAndDotNetTestProject2\AngularDotNetTest.API\AngularDotNetTest.API\obj\Debug\net6.0\ref\AngularDotNetTest.API.dll
+D:\Projects\AngularAndDotNetTestProject2\AngularDotNetTest.API\AngularDotNetTest.API\obj\Debug\net6.0\AngularDotNetTest.API.sourcelink.json

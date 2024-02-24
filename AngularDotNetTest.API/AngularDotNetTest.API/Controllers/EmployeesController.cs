@@ -1,6 +1,9 @@
 ﻿using AngularDotNetTest.API.Models;
+using AngularDotNetTest.API.Models.Dtos;
+using AngularDotNetTest.API.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AngularDotNetTest.API.Controllers
 {
@@ -8,20 +11,39 @@ namespace AngularDotNetTest.API.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
+        private readonly IEmployeesService _employeesService;
+        public EmployeesController(IEmployeesService employeesService)
+        {
+            _employeesService = employeesService;
+        }
+
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var employees = new List<Employee>
-            {
-                new Employee { Id = 1, FirstName = "KOKO", LastName = "FOFO", JobTitle = "Full-Stack Developer"},
-                new Employee { Id = 2, FirstName = "ZOZO", LastName = "KOKO", JobTitle = "Front-End Developer"},
-            };
-
-            for (int i = 1; i < 11; i++)
-                employees.Add(new Employee { Id = i, FirstName = $"Test Employee F{i}", LastName = $"Test Employee L{i}", JobTitle = $"Test Employee J{i}" });
-            
-
+            var employees = await _employeesService.Get();
             return Ok(employees);   
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Create(EmployeeDto employee)
+        {
+            var createdEmployee = await _employeesService.Create(employee);
+            return Ok(createdEmployee);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Update(EmployeeDto employee)
+        {
+            var createdEmployee = await _employeesService.Create(employee);
+            return Ok(createdEmployee);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> Delete(int id)
+        {
+            return Ok();
+        }
+
     }
 }

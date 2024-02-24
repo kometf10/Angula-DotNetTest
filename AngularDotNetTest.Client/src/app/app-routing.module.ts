@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/Home/home.component';
-import { DataComponent } from './components/Data/data.component';
-import { EventComponent } from './components/Event/event.component';
+import { EmployeeListComponent } from './components/employees/employee-list/employee-list.component';
+import { EmployeeCreateComponent } from './components/employees/employee-create/employee-create.component';
 
 const routes: Routes = [
   {'path': '', component:HomeComponent},
-  {'path': 'Data', component:DataComponent},
-  {'path': 'Event', component:EventComponent}
+  {'path': 'employees-list', component:EmployeeListComponent},
+  {'path': 'employee-create', component:EmployeeCreateComponent}
 ];
 
 @NgModule({

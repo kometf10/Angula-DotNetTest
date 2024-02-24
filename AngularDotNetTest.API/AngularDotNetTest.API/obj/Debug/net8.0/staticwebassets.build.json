@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6pbNkDs79KV6IRJr+cyfTRfdHg1e3AuigX712aFee9Y=",
+  "Source": "AngularDotNetTest.API",
+  "BasePath": "_content/AngularDotNetTest.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

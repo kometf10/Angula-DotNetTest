@@ -14,4 +14,8 @@ export class EmployeeService {
   public getEmployees() : Observable<Employee[]>{
     return this.httpClient.get<Employee[]>(`${environment.apiUrl}${this.controller}`);
   }
+
+  public createEmployee(createEmployeeRequest: Employee): Observable<Employee>{
+    return this.httpClient.post<Employee>(`${environment.apiUrl}${this.controller}`, createEmployeeRequest);
+  }
 }

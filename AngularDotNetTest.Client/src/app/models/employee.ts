@@ -3,4 +3,8 @@ export class Employee{
     firstName = "";
     lastName = "";
     jobTitle = "";
+    email = "";
+    dateOfBirth? : Date;
+    departmentId?: number;
+    imagePath? = "";
 }
